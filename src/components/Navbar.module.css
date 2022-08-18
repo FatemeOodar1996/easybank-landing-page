@@ -1,0 +1,41 @@
+.navbar {
+    background-color: white;
+}
+.requestBtn {
+    background-image: linear-gradient(to right, hsl(192, 70%, 51%), #31d35c);
+    color: white;
+    border-radius: 2rem;
+    border: none;
+    padding: 0.5rem 1.25rem;
+    /* color: hsl(233, 26%, 24%);
+    color: hsl(136, 65%, 51%);
+    color: hsl(233, 8%, 62%);
+    color: hsl(220, 16%, 96%);
+    color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 100%);
+    color: hsl(192, 70%, 51%); */
+}
+.navItem {
+    color: hsl(0, 0%, 82%);
+    font-weight: 500;
+}
+.navItem:hover {
+    color: hsl(0, 0%, 17%);
+    font-weight: 500;
+    border-bottom: #31d35c;
+    width: 100%;
+}
+.navItem::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    display: block;
+    transition: all 0.3s ease;
+    bottom: 25%;
+}
+.navItem:hover::after {
+    width: 5%;
+    height: 2px;
+    background-color: #31d35c;
+}
