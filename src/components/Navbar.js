@@ -1,12 +1,11 @@
 import { Component } from "react";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import css from "./Navbar.module.css";
 import logo from "../assets/images/logo.svg";
+import RequestBtn from "./RequestBtn/RequestBtn";
 
 class NavScrollExample extends Component {
     render() {
@@ -35,9 +34,7 @@ class NavScrollExample extends Component {
                                 Careers
                             </Nav.Link>
                         </Nav>
-                        <Button className={`${css.requestBtn}`} variant="outline-success">
-                            Request Invite
-                        </Button>
+                        <RequestBtn />
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

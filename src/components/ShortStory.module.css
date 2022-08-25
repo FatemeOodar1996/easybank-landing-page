@@ -1,0 +1,21 @@
+.title {
+    color: hsl(233, 26%, 24%);
+    font-weight: 500;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.description {
+    color: hsl(233, 8%, 62%);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 762px) {
+    .title {
+        text-align: center;
+    }
+    .description {
+        text-align: center;
+    }
+}
