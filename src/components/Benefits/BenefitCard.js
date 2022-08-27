@@ -16,7 +16,7 @@ class BenefitCard extends Component {
                     <Card.Img variant="top" src={data.image} className={`${css.image}`} />
                     <Card.Body className={`${css.pl}`}>
                         <Card.Title className={`${css.title}`}>{data.title}</Card.Title>
-                        <Card.Text className={`${css.text}`}>{data.text}</Card.Text>
+                        <Card.Text className={`${css.description}`}>{data.description}</Card.Text>
                     </Card.Body>
                 </Card>
             </>

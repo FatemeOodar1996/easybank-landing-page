@@ -5,14 +5,17 @@ import BenefitCard from "./BenefitCard";
 import Data from "../../api/Data";
 
 class Benefits extends Component {
-    constructor(props) {
-        super(props);
-    }
+    // constructor(props) {
+    //     super(props);
+    // }
     render() {
         return (
             <div className="container">
                 <div className={`${css.benefitsBody}`}>
-                    <ShortStory />
+                    <ShortStory
+                        title={Data.benefitShortStory()[0].title}
+                        description={Data.benefitShortStory()[0].description}
+                    />
 
                     <div className="row row-cols-lg-4 row-cols-md-2 row-cols-1 gy-4 mt-2">
                         {Data.benefitData().map((data) => (

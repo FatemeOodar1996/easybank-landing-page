@@ -1,15 +1,15 @@
-import react, { Component } from "react";
+import React, { Component } from "react";
 import css from "./ShortStory.module.css";
+import Data from "../api/Data";
 class ShortStory extends Component {
-    state = {};
+    constructor(props) {
+        super(props);
+    }
     render() {
         return (
             <div>
-                <h2 className={`${css.title}`}> Next generation digital banking</h2>
-                <p className={`${css.description}`}>
-                    Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving,
-                    budgeting, investing, and much more.
-                </p>
+                <h2 className={`${css.title}`}>{this.props.title}</h2>
+                <p className={`${css.description}`}>{this.props.description}</p>
             </div>
         );
     }
