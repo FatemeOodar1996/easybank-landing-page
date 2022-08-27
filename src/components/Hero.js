@@ -21,7 +21,7 @@ class Hero extends Component {
                             <RequestBtn />
                         </div>
                         <div className="col-md-7 col-12">
-                            <img className={`${css.mockup}`} src={mockup} alt="" srcset="" />
+                            <img className={`${css.mockup}`} src={mockup} alt="" srcSet="" />
                         </div>
                     </div>
                 </div>

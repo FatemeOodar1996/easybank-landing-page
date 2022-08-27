@@ -19,7 +19,7 @@ class Benefits extends Component {
 
                     <div className="row row-cols-lg-4 row-cols-md-2 row-cols-1 gy-4 mt-2">
                         {Data.benefitData().map((data) => (
-                            <div className="col">
+                            <div className="col" key={data.id}>
                                 <BenefitCard data={data} />
                             </div>
                         ))}

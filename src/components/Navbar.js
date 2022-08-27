@@ -13,7 +13,7 @@ class NavScrollExample extends Component {
             <Navbar className={`container ${css.navbar}`} expand="md">
                 <Container fluid>
                     <Navbar.Brand href="#">
-                        <img src={logo} alt="logo" srcset="" />
+                        <img src={logo} alt="logo" srcSet="" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">

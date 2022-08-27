@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import css from "./ShortStory.module.css";
-import Data from "../api/Data";
 class ShortStory extends Component {
     constructor(props) {
         super(props);
