@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Benefits from "./components/Benefits/Benefits";
 import Articles from "./components/Articles/Articles";
-import Footer from "./components/footer/Footer";
+import Footer from "./components/Footer/Footer";
 
 class App extends React.Component {
     constructor(props) {

@@ -86,4 +86,22 @@ export default class Data {
             },
         ];
     }
+    static socialMedia() {
+        return [
+            { key: 1, image: "/assets/images/icon-facebook.svg", title: "hello" },
+            { key: 2, image: "/assets/images/icon-youtube.svg", title: "hello" },
+            { key: 3, image: "/assets/images/icon-twitter.svg", title: "hello" },
+            { key: 4, image: "/assets/images/icon-pintrest.svg", title: "hello" },
+            { key: 5, image: "/assets/images/icon-instagram.svg", title: "hello" },
+        ];
+    }
+    static sectionData() {
+        return [
+            { key: 1, name: "name", title: "hello" },
+            { key: 2, name: "name", title: "hello" },
+            { key: 3, name: "name", title: "hello" },
+            { key: 4, name: "name", title: "hello" },
+            { key: 5, name: "name", title: "hello" },
+        ];
+    }
 }
