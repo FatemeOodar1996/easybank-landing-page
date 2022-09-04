@@ -1,5 +1,6 @@
 .cardBody {
     border: none;
+    background-color: transparent;
 }
 .pl {
     padding-left: 0;
@@ -11,6 +12,7 @@
 .title {
     color: hsl(0, 0%, 17%);
     font-weight: 500;
+    margin-top: 1rem;
 }
 .description {
     color: hsl(233, 8%, 62%);

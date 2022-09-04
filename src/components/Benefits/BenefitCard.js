@@ -1,13 +1,8 @@
-// import React, { Component } from "react";
 import React, { Component } from "react";
 import Card from "react-bootstrap/Card";
 import css from "./BenefitCard.module.css";
-// import banking from "../../assets/images/icon-online.svg";
 
 class BenefitCard extends Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
         const { data } = this.props;
         return (

@@ -5,13 +5,10 @@ import BenefitCard from "./BenefitCard";
 import Data from "../../api/Data";
 
 class Benefits extends Component {
-    // constructor(props) {
-    //     super(props);
-    // }
     render() {
         return (
-            <div className="container">
-                <div className={`${css.benefitsBody}`}>
+            <div className={` ${css.benefitsBody}`}>
+                <div className={`container`}>
                     <ShortStory
                         title={Data.benefitShortStory()[0].title}
                         description={Data.benefitShortStory()[0].description}
