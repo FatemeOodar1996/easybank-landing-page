@@ -54,7 +54,7 @@ export default class Data {
         return [
             {
                 key: 1,
-                image: "../assets/imges/image-currency.jpg",
+                image: "/assets/images/image-currency.jpg",
                 writer: "By Claire Robinson",
                 title: "Receive money in any currency with no fees",
                 description:
@@ -62,7 +62,7 @@ export default class Data {
             },
             {
                 key: 2,
-                image: "../assets/imges/image-restaurant.jpg",
+                image: "../assets/images/image-restaurant.jpg",
                 writer: "By Wilson Hutton",
                 title: "Treat yourself without worrying about money",
                 description:
@@ -70,7 +70,7 @@ export default class Data {
             },
             {
                 key: 3,
-                image: "/assets/imges/image-plane.jpg",
+                image: "/assets/images/image-plane.jpg",
                 writer: "By Wilson Hutton",
                 title: "Take your Easybank card wherever you go",
                 description:
@@ -78,7 +78,7 @@ export default class Data {
             },
             {
                 key: 4,
-                image: "/assets/imges/image-confetti.jpg",
+                image: "/assets/images/image-confetti.jpg",
                 writer: "By Claire Robinson",
                 title: "Our invite-only Beta accounts are now live!",
                 description:

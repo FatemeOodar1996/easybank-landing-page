@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Benefits from "./components/Benefits/Benefits";
 import Articles from "./components/Articles/Articles";
+import Footer from "./components/footer/Footer";
 
 class App extends React.Component {
     constructor(props) {
@@ -18,6 +19,7 @@ class App extends React.Component {
                 <Hero />
                 <Benefits />
                 <Articles />
+                <Footer />
             </div>
         );
     }

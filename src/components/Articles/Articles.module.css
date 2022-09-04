@@ -1,6 +1,15 @@
+.body {
+    background-color: hsl(0, 0%, 98%);
+    padding: 5rem 0;
+}
 .title {
     color: hsl(233, 26%, 24%);
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
+}
+@media screen and (max-width:768px) {
+    .title {
+        text-align: center;
+      }
 }

@@ -1,0 +1,25 @@
+.body {
+    border: none;
+    box-shadow: 0 2px 20px 5px rgba(204, 204, 204, 0.24);
+}
+.picture {
+    height: 12rem;
+}
+
+.title {
+    font-size: 1.15rem;
+    color: hsl(233, 26%, 24%);
+}
+.writer {
+    font-size: 0.75rem;
+    color: hsl(233, 8%, 62%);
+}
+.description {
+    font-size: 0.9rem;
+    color: hsl(233, 8%, 62%);
+}
+.description:hover {
+    font-size: 0.9rem;
+    color: hsl(192, 70%, 51%);
+    cursor: pointer;
+}
