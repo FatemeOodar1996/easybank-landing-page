@@ -1,38 +1,51 @@
 import React, { Component } from "react";
 import RequestBtn from "../RequestBtn/RequestBtn";
 import css from "./Footer.module.css";
-import logo from "../../assets/images/logo.svg";
-import Social from "./Social";
-import Section from "./Section";
+import logo from "../../assets/images/logo-white.svg";
 import Data from "../../api/Data";
 
 class Footer extends Component {
     render() {
+        console.table(Data.socialMedia());
         return (
             <div className={`${css.body}`}>
                 <div className="container">
-                    <div className="d-flex justify-content-between">
-                        <div className="d-flex flex-column">
-                            <img src={logo} alt="" srcSet="" />
+                    <div className={`d-flex flex-column flex-md-row justify-content-between ${css.main}`}>
+                        <div className={`d-flex flex-column justify-content-between col-md-2 col-12 ${css.partOne}`}>
                             <div>
-                                {Data.socialMedia().forEach((data) => {
-                                    <Social data={data} />;
-                                })}
+                                <img src={logo} alt="" srcSet="" />
+                            </div>
+                            <div className={`d-flex justify-content-around ${css.icons}`}>
+                                {Data.socialMedia().map((data) => (
+                                    <a href="#">
+                                        <img className="social" src={data.image} alt="" />
+                                    </a>
+                                ))}
                             </div>
                         </div>
-                        <div>
-                            <ul>
-                                {Data.sectionData().forEach((data) => {
-                                    <li>
-                                        <Section data={data} />;
-                                    </li>;
-                                })}
+                        <div className={`d-flex col-md-3 col-12 justify-content-between ${css.sections}`}>
+                            <ul className={`${css.socialMedia}`}>
+                                {Data.sectionData()
+                                    .slice(0, 3)
+                                    .map((data) => (
+                                        <li>{data.name}</li>
+                                    ))}
+                            </ul>
+                            <ul className={`${css.socialMedia}`}>
+                                {Data.sectionData()
+                                    .slice(3)
+                                    .map((data) => (
+                                        <li>{data.name}</li>
+                                    ))}
                             </ul>
                         </div>
 
-                        <div>
-                            <RequestBtn />
-                            <p>© EasyBank All Rights Reserved</p>
+                        <div
+                            className={`d-flex flex-column align-items-md-end align-items-center justify-content-between ${css.privacy}`}>
+                            <div>
+                                <RequestBtn />
+                            </div>
+                            <p className={`${css.privacyText}`}>© EasyBank All Rights Reserved</p>
                         </div>
                     </div>
                 </div>

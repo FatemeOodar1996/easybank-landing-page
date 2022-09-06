@@ -1,4 +1,61 @@
 .body {
     background-color: hsl(233, 26%, 24%);
-    padding: 3rem 0;
+    padding: 2rem 0;
+}
+.main {
+    gap: 2rem;
+    align-items: center;
+}
+.partOne {
+    height: 80px;
+}
+.social {
+    width: 1rem !important;
+    height: 1rem !important;
+}
+.social:hover {
+    cursor: pointer;
+}
+.socialMedia {
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 0;
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+    list-style-type: none;
+}
+.socialMedia > li {
+    width: 100px;
+}
+.socialMedia > li:hover {
+    color: hsl(192, 70%, 51%);
+    cursor: pointer;
+}
+.privacyText {
+    margin-bottom: 0;
+    color: hsl(233, 8%, 62%);
+    font-size: 0.9rem;
+}
+.privacy {
+    height: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .socialMedia {
+        text-align: center;
+        padding-left: 0;
+        margin-bottom: 1rem;
+    }
+    .sections {
+        align-items: center;
+        flex-direction: column;
+    }
+    .partOne {
+        align-items: center;
+    }
+    .icons {
+        width: 55%;
+    }
 }

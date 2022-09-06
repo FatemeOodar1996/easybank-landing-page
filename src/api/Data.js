@@ -88,20 +88,21 @@ export default class Data {
     }
     static socialMedia() {
         return [
-            { key: 1, image: "/assets/images/icon-facebook.svg", title: "hello" },
-            { key: 2, image: "/assets/images/icon-youtube.svg", title: "hello" },
-            { key: 3, image: "/assets/images/icon-twitter.svg", title: "hello" },
-            { key: 4, image: "/assets/images/icon-pintrest.svg", title: "hello" },
-            { key: 5, image: "/assets/images/icon-instagram.svg", title: "hello" },
+            { key: 1, image: "/assets/images/icon-facebook.svg" },
+            { key: 2, image: "/assets/images/icon-youtube.svg" },
+            { key: 3, image: "/assets/images/icon-twitter.svg" },
+            { key: 4, image: "/assets/images/icon-pinterest.svg" },
+            { key: 5, image: "/assets/images/icon-instagram.svg" },
         ];
     }
     static sectionData() {
         return [
-            { key: 1, name: "name", title: "hello" },
-            { key: 2, name: "name", title: "hello" },
-            { key: 3, name: "name", title: "hello" },
-            { key: 4, name: "name", title: "hello" },
-            { key: 5, name: "name", title: "hello" },
+            { key: 1, name: "About Us" },
+            { key: 2, name: "Contact" },
+            { key: 3, name: "Blog" },
+            { key: 4, name: "Careers" },
+            { key: 5, name: "Supurt" },
+            { key: 6, name: "Privacy Policy" },
         ];
     }
 }
