@@ -11,11 +11,11 @@ class Footer extends Component {
             <div className={`${css.body}`}>
                 <div className="container">
                     <div className={`d-flex flex-column flex-md-row justify-content-between ${css.main}`}>
-                        <div className={`d-flex flex-column justify-content-between col-md-2 col-12 ${css.partOne}`}>
+                        <div className={`d-flex flex-column justify-content-between col-md-3 col-12 ${css.partOne}`}>
                             <div>
                                 <img src={logo} alt="" srcSet="" />
                             </div>
-                            <div className={`d-flex justify-content-around ${css.icons}`}>
+                            <div className={`d-flex justify-content-md-start justify-content-around ${css.icons}`}>
                                 {Data.socialMedia().map((data) => (
                                     <a href="#">
                                         <img className="social" src={data.image} alt="" />
@@ -41,10 +41,10 @@ class Footer extends Component {
                         </div>
 
                         <div
-                            className={`d-flex flex-column align-items-md-end align-items-center justify-content-between ${css.privacy}`}>
-                            <div>
+                            className={`d-flex col-md-6 col-12 flex-column align-items-md-end align-items-center justify-content-between ${css.privacy}`}>
+                          
                                 <RequestBtn />
-                            </div>
+                           
                             <p className={`${css.privacyText}`}>© EasyBank All Rights Reserved</p>
                         </div>
                     </div>

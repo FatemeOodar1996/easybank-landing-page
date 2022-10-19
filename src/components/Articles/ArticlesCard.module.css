@@ -31,8 +31,9 @@
     color: hsl(233, 8%, 62%);
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 5;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 .description:hover {
     font-size: 0.9rem;
