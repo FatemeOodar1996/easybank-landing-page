@@ -10,14 +10,14 @@ import RequestBtn from "./RequestBtn/RequestBtn";
 class NavScrollExample extends Component {
     render() {
         return (
-            <Navbar className={`container ${css.navbar}`} expand="md">
-                <Container fluid>
-                    <Navbar.Brand href="#">
-                        <img src={logo} alt="logo" srcSet="" />
+            <Navbar className={` ${css.navbar}`} expand="md">
+                <Container>
+                    <Navbar.Brand className={`${css.navBrand}`} href="logo">
+                        <img src={logo} alt="logo" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
-                        <Nav className=" m-auto my-2 my-lg-0" navbarScroll>
+                        <Nav className={`m-auto my-2 my-lg-0" navbarScroll ${css.navItems}`}>
                             <Nav.Link className={`${css.navItem}`} href="#action1">
                                 Home
                             </Nav.Link>

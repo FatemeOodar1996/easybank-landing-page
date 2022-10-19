@@ -20,12 +20,13 @@ class Hero extends Component {
                                 />
                                 <RequestBtn />
                             </div>
-                            <div className={`col-md-7 col-12`}></div>
+                            <div className={`col-md-7 col-12`}>
+                                <img className={`${css.bg}`} alt="bg" src={bg} />{" "}
+                                <img className={`${css.mockup}`} alt="mockup" src={mockup} />
+                            </div>
                         </div>
                     </div>
                 </div>
-                <img className={`${css.mockup}`} alt="" src={mockup} />
-                <img className={`${css.bg}`} alt="" src={bg} />
             </>
         );
     }
