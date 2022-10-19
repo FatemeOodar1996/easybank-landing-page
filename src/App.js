@@ -1,11 +1,11 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./index.css"
+import "./index.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Benefits from "./components/Benefits/Benefits";
 import Articles from "./components/Articles/Articles";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/footer/Footer";
 
 class App extends React.Component {
     constructor(props) {

@@ -3,7 +3,7 @@ import ShortStory from "./ShortStory";
 import mockup from "../assets/images/image-mockups.png";
 import bg from "../assets/images/bg-intro-desktop.svg";
 import RequestBtn from "./RequestBtn/RequestBtn";
-import css from "./hero.module.css";
+import css from "./Hero.module.css";
 import Data from "../api/Data";
 
 class Hero extends Component {
