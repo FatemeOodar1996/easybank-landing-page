@@ -2,6 +2,7 @@ body {
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
 }
 
 code {
@@ -10,19 +11,19 @@ code {
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: "publicSans";
+    padding: 0;
+    margin: 0;
+    font-family: "publicSans";
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 @font-face {
-  font-family: "publicSans";
-  src: url("./assets/fonts/PublicSans-Bold.ttf");
-  font-weight: 700;
+    font-family: "publicSans";
+    src: url("./assets/fonts/PublicSans-Bold.ttf");
+    font-weight: 700;
 }
 @font-face {
     font-family: "publicSans";
@@ -32,4 +33,5 @@ body {
 @font-face {
     font-family: "publicSans";
     src: url("./assets/fonts/PublicSans-Regular.ttf");
-    font-weight: 300;}
+    font-weight: 300;
+}

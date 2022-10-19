@@ -2,13 +2,25 @@
     border: none;
     box-shadow: 0 2px 20px 5px rgba(204, 204, 204, 0.24);
 }
-.picture {
+.imageParent {
     height: 12rem;
+    width: 100%;
+    overflow: hidden;
+}
+.picture {
+    object-fit: cover;
+    height: 100%;
 }
 
 .title {
     font-size: 1.15rem;
     color: hsl(233, 26%, 24%);
+    height: 48px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 .writer {
     font-size: 0.75rem;
@@ -17,6 +29,10 @@
 .description {
     font-size: 0.9rem;
     color: hsl(233, 8%, 62%);
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
 }
 .description:hover {
     font-size: 0.9rem;

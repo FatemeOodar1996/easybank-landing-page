@@ -8,7 +8,7 @@ class Articles extends Component {
             <div className={`${css.body}`}>
                 <div className="container">
                     <h2 className={`${css.title}`}>Lastest Articles</h2>
-                    <div className={`row row-cols-lg-4 row-cols-md-2 row-cols-1 gy-4 mt-2 ${css.cards}`}>
+                    <div className={`row row-cols-lg-4 row-cols-sm-2 gy-4 mt-2 ${css.cards}`}>
                         {Data.articles().map((data) => (
                             <div key={data.key}>
                                 <ArticleCard data={data} />
