@@ -12,7 +12,7 @@
 
 .bg {
     position: absolute;
-    bottom:-40px;
+    top: -130px;
     z-index: 0;
     right: -200px;
     width: 72%;
@@ -29,11 +29,25 @@
     height: 85vh;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .description {
         align-items: center;
-        height: 50vh;
         padding-right: 0;
         text-align: center;
+        justify-content: flex-start;
+        height: 45vh;
+    }
+    .bg {
+        position: relative;
+        top: -80px;
+        z-index: 0;
+        right: 40px;
+        width: 154%;
+    }
+    .mockup {
+        position: absolute;
+        top: 36px;
+        right: 0;
+        width: 100%;
     }
 }
